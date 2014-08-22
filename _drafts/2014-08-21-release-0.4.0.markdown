@@ -21,7 +21,7 @@ See [polymer-dev/issues/79](https://github.com/Polymer/polymer-dev/issues/79) fo
 
 Before this release, you would have to often name your element twice:
 
-    <polymer-element name="*x-foo*">
+    <polymer-element name="x-foo">
         <template>{{message}}</template>
         <script>
             Polymer('x-foo', {
