@@ -24,7 +24,7 @@ Before this release, you would have to often name your element twice:
     <polymer-element name="*x-foo*">
         <template>{{message}}</template>
         <script>
-            Polymer(*'x-foo'*, {
+            Polymer('x-foo', {
               message: 'Hi!'
             });
         </script>
@@ -32,7 +32,7 @@ Before this release, you would have to often name your element twice:
 
 Now, you now only need to name your element once. The following is now supported with the document.currentScript polyfill, across all modern browsers:
 
-    <polymer-element name="*x-foo*">
+    <polymer-element name="x-foo">
         <template>{{message}}</template>
         <script>
             Polymer({ //look ma! no x-foo
